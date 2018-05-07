@@ -22,6 +22,6 @@ out_file = open(to_file, 'w')
 out_file.write(indata)
 #print text to screen
 print("Alright , all done.")
-#close both file
+#close both 
 out_file.close()
 in_file.close()
