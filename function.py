@@ -9,7 +9,7 @@ def calc (Tel , rent , cc , wage , tax) :
     saving = income-expense
     print(f"You made ${income} this month")
     print(f"Your expenses total ${expense}")
-    print(f" You you only have ${saving} in you account\n")
+    print(f"You you only have ${saving} in you account\n")
 
 print("\nMethod 1 : Giving it raw values")
 calc(30.00, 660.00, 150.00 , 1041 , 300.00)
@@ -41,10 +41,11 @@ calc(int(input1), int(input2), int(input3), int(input4), int(input5))
 
 print("Method 7 read from file")
 read_text = open('test2.txt')
-x = read_text.readline(1)
-y = read_text.readline(2)
-z = read_text.readline(3)
-a = read_text.readline(4)
-b = read_text.readline(5)
+x = read_text.readline()
+y = read_text.readline()
+z = read_text.readline()
+a = read_text.readline()
+b = read_text.readline()
 
 calc(int(x), int(y), int(z), int(a), int(b))
+read_text.close()
