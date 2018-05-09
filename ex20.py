@@ -19,7 +19,7 @@ print_all(current_file)
 
 print("Now let's rewind, kind of like a a tape.")
 
-rewind(curent_file)
+rewind(current_file)
 
 print("Let's print three lines:")
 
