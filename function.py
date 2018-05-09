@@ -41,5 +41,10 @@ calc(int(input1), int(input2), int(input3), int(input4), int(input5))
 
 print("Method 7 read from file")
 read_text = open('test2.txt')
-x = read_text.read()
-calc(x)
+x = read_text.readline(1)
+y = read_text.readline(2)
+z = read_text.readline(3)
+a = read_text.readline(4)
+b = read_text.readline(5)
+
+calc(int(x), int(y), int(z), int(a), int(b))
