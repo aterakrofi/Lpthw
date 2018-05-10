@@ -10,7 +10,7 @@ def rewind(f):
     f.seek(0)
 #function to print text line by line
 def print_a_line(line_count, f):
-    print(line_count, f.readline())
+    print(line_count, f.readline() , end="")
 #assign the command openning of a file to current_file
 current_file = open(input_file)
 
@@ -28,8 +28,8 @@ current_line = 1
 #function prints line number 1
 print_a_line(current_line, current_file)
 #Function prints line no. 2 (variable + itself)
-current_line = current_line + 1
+current_line += 1
 print_a_line(current_line , current_file)
 #function prints the 3rd line
-current_line = current_line + 1
+current_line += 1
 print_a_line(current_line, current_file)
