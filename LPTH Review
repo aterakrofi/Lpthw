@@ -1,0 +1,24 @@
+Print -  prints text to screen
+Brackets () - encases a variable / text
+Hash #  - To comment out text
+PLUS (+) - Addition operator
+Minus (-) -Subtraction Operator
+Asterisk (*) - Multiplication operator
+Backslash ( / ) - division operator
+Equal ( = ) - Used to assign a variable
+Comma (,) -
+ Single Quotes (‘’) - tell python line of code is a string
+Double Quotes(“”) - tell python that line of code is a string
+F string (f”) - print a variable within a string
+Curly Braces { }  - used to encase a when printing a variable within a string
+.format() -
+End = ‘  ‘ - print space  at end of string on same line
+Formatter = “ { }  { } { } { } “
+\n  - print on next line
+Triple quotes (“””) - print multiple lines of string
+\t -
+\\ -
+input() - stores keyboard input
+Import - importing features from the library
+From - import from within the library
+Argv - ex13
