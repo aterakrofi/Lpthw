@@ -7,7 +7,7 @@ with login so firmly planted
 cannot discern \n the needs of lovely
 nor comprehend passion from intuition
 and requires an explanation
-\n\ttwhere there is none.
+\n\twhere there is none.
 """
 
 print("--------------")
@@ -15,8 +15,8 @@ print(poem)
 print("--------------")
 
 
-five = 10 - 2 + 3 -6
-print("This should be five: %s" ) % five
+five = 10 - 2 + 3 - 6
+#print("This should be five: %d" ) % five
 
 def secret_formular(started):
     jelly_beans = started * 500
@@ -28,7 +28,7 @@ def secret_formular(started):
 start_point = 10000
 beans, jars, crates = secret_formular(start_point)
 
-print("With a starting point of: %d" % start_point
+print("With a starting point of: %d") % start_point
 print("We'd have %d beans, %d jars, and %d crates.") % (beans, jars, crates)
 
 start_point = start_point / 10
